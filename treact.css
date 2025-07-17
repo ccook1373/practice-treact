@@ -1,3 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
-    color: red;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui;
 }
+
+/*
+
+NAV
+
+*/
+
+nav {
+    padding: 24px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 70px;
+    max-width: 1200px;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo__wrapper {
+    display: flex;
+}
+
+.nav__links {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-left: 24px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*
+
+HEADER
+
+*/
+
+header {
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__img {
+}
+
+/*
+
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+width: 60%;
+.header__left {
+    width: 40%;
+}
+
+.header__right {
+}
+
+
+
+
