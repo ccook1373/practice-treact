@@ -171,6 +171,13 @@ h2 {
     width: 100%;
     max-width: 1200px;
     margin-top: 56px;
+    flex-wrap: wrap;
+}
+
+.feature {
+    width: calc(100% /3);
+    display: flex;
+    
 }
 
 
